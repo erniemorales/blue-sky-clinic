@@ -1,0 +1,77 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+.site-header {
+  text-align: center;
+  background: linear-gradient(90deg,#1E3A8A,#2563EB);
+  color: white;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+}
+.logo {
+  max-height: 80px;
+  display:block;
+  margin:0 auto 10px;
+}
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+h2 {
+  color: #1E3A8A;
+  border-bottom: 2px solid #2563EB;
+  padding-bottom: 5px;
+}
+details summary {
+  cursor: pointer;
+  font-weight: bold;
+  margin: 10px 0;
+}
+details summary::marker {
+  color: #2563EB;
+}
+.fade-in {
+  animation: fadeIn 1s ease-in;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+footer {
+  background: #1E3A8A;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+.lang-btn {
+  background: white;
+  color: #1E3A8A;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.lang-btn:hover {
+  background: #e0f2fe;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+table th {
+  background-color: #2563EB;
+  color: white;
+}
